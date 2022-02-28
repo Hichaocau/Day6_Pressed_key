@@ -19,3 +19,12 @@ document.addEventListener('keydown', e =>{
     alert.classList.add('hide')
     box.classList.remove('hide')
 })
+
+
+// var json = '["javascript", "react"]'
+var json = '"sjon"'
+
+var json2 = JSON.parse(json)
+console.log(json)
+console.log(json2)
+console.log(typeof json2)
